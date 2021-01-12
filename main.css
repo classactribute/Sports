@@ -1,0 +1,125 @@
+#headerBack {
+  font-family: ubuntu;
+  height: 80px;
+  background-color: #0054a3;
+  color: white;
+  font-size: 3rem;
+}
+
+#logo {
+  width: 140px;
+  margin-top: 35px;
+}
+
+#headerBack {
+  position: relative;
+  z-index: 1;
+}
+
+.abbott-nav {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  background: none;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: Oxygen !important;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.2rem;
+}
+
+#footerBack {
+  background-color: #ffef00;
+  height: 110px;
+  padding: 15px 100px 0 0;
+}
+
+.row {
+  text-align: center;
+}
+
+#footLogo {
+  width: 110px;
+}
+
+.footLink {
+  color: black;
+  text-decoration: none;
+  font-family: Libre + Franklin;
+}
+
+.socialContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.socialIcon {
+  width: 40px;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  #siteTitle {
+    font-size: 2.2rem;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  #siteTitle {
+    font-size: 1.8rem;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .abbott-nav {
+    background-color: white;
+    width: 150px;
+    opacity: 50%;
+    border-radius: 10px;
+  }
+
+  .nav-link {
+    color: black !important;
+    font-family: Oxygen !important;
+    text-shadow: none;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #logo {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .socialIcon {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .socialIcon {
+    padding: 3px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #footerBack {
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 603px) {
+  .footLink {
+    font-size: 0.8rem;
+  }
+  #footLogo {
+    width: 80px;
+  }
+}
