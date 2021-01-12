@@ -1,0 +1,16 @@
+/* .carousel-item img{
+    height: 300px;
+} */
+
+.hidden-me{
+    visibility: hidden;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.title{
+font-size: 5vw;
+
+}
