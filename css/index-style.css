@@ -11,7 +11,43 @@
   }
   
   #newsBody {
-    height: 800px;
-    background-image: url("img/blue-back.jpg");
+    background-image: url("../img/blue-back.jpg");
     background-size: cover;
+  }
+
+  .newsImg {
+    width: 250px;
+  }
+
+  #latestTitle{
+    font-family: Oxygen;
+    font-weight: bold;
+    color: white;
+    font-size: 1.8rem;
+    margin: 20px 0;
+  }
+
+  .newsTitle{
+    font-family: Oxygen;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  a.newsTitle:hover {
+    color: rgb(205, 205, 205);
+  }
+
+  .newsDiv {
+    padding: 20px 50px !important;
+
+  }
+
+  #moreNews {
+    font-family: Oxygen;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    text-align: right;
   }
