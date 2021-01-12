@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Page CSS -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index-style.css">
 
 
     <!-- Bootstrap CSS -->
@@ -30,8 +30,8 @@
     <div id="headerBack">
         <div class="container">
             <div class="row">
-                <div id="siteTitle" class="col-sm-9 col-8">John Abbott Islander</div>
-                <div class="col-sm-3 col-4"><img id="logo" src="img/john-abbott.png"></div>
+                <div id="siteTitle" class="col-xxl-6 col-xl-7 col-lg-8 col-sm-9 col-7">John Abbott Islander</div>
+                <div class="offset-xxl-3 offset-xl-2 col-sm-3 col-4"><img id="logo" src="img/john-abbott.png"></div>
             </div>
         </div>
     </div>
@@ -58,41 +58,68 @@
     </div>
 
     <!-- Slider -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="abbott-carousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+            <li data-bs-target="#abbott-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#abbott-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#abbott-carousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#abbott-carousel" data-bs-slide-to="3"></li>
+            <li data-bs-target="#abbott-carousel" data-bs-slide-to="4"></li>
         </ol>
         <div class="carousel-inner" data-bs-interval="3000">
-          <div class="carousel-item active">
-            <img src="img/slider-rugby.jpg" class="d-block w-100" alt="Rugby">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-basketball.jpg" class="d-block w-100" alt="Basketball">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-swim.jpg" class="d-block w-100" alt="Swimming">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-tennis.jpg" class="d-block w-100" alt="Tennis">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-hurdling.jpg" class="d-block w-100" alt="Hurdling">
-          </div>
+            <div class="carousel-item active">
+                <img src="img/slider-rugby.jpg" class="d-block w-100" alt="Rugby">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slider-basketball.jpg" class="d-block w-100" alt="Basketball">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slider-swim.jpg" class="d-block w-100" alt="Swimming">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slider-tennis.jpg" class="d-block w-100" alt="Tennis">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slider-hurdling.jpg" class="d-block w-100" alt="Hurdling">
+            </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <a class="carousel-control-prev" href="#abbott-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <a class="carousel-control-next" href="#abbott-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </a>
-      </div>
+    </div>
 
+    <!-- Latest News -->
+    <div class="container">
+        <div id="newsBody">
+            <div class="row">
+                <div id="latestTitle" class="col">Latest News</div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div><img src="img/medal.jpg" alt="Medal"></div>
+                    <div class="newsTitle">The title of first news comes here</div>
+                </div>
+                <div class="col-3">
+                    <div><img src="img/ball.jpg" alt="Ball"></div>
+                    <div class="newsTitle">The title of second news comes here</div>
+                </div>
+                <div class="col-3">
+                    <div><img src="img/running-man.jpg" alt="Running Man"></div>
+                    <div class="newsTitle">The title of third news comes here</div>
+                </div>
+                <div class="col-3">
+                    <div><img src="img/ball-basketball.jpg" alt="Basketball"></div>
+                    <div class="newsTitle">The title of fourth news comes here</div>
+                </div>
+            </div>
+        </div>
+
+    <!-- </div> -->
     <!-- Footer -->
     <div id="footerBack">
         <div class="container">
