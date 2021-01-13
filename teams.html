@@ -32,7 +32,8 @@
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/8073f3783b.js" crossorigin="anonymous"></script>
 
-    <title>Homepage</title>
+    <title>Teams Overview</title>
+    <meta name="Teams Overview" content="An overview of all of John Abbott teams">
 </head>
 
 <body>
@@ -58,10 +59,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">News</a>
-                        <a class="nav-link" href="#">Our Teams</a>
-                        <a class="nav-link" href="#">Championship and Achievements</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="news.html">News</a>
+                        <a class="nav-link" href="teams.html">Our Teams</a>
+                        <a class="nav-link" href="achievement-and-championship.html">Championship and Achievements</a>
                     </div>
                 </div>
             </div>
@@ -69,67 +70,47 @@
     </div>
 
     <!-- Slider -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner" data-bs-interval="3000">
+    <div id="abbott-carousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-bs-target="#abbott-carousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#abbott-carousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#abbott-carousel" data-bs-slide-to="2"></li>
+          <li data-bs-target="#abbott-carousel" data-bs-slide-to="3"></li>
+          <li data-bs-target="#abbott-carousel" data-bs-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" data-bs-interval="3000">
           <div class="carousel-item active">
-            <img src="img/slider-rugby.jpg" class="d-block w-100" alt="Rugby">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
+              <img src="img/slider-rugby.jpg" class="d-block w-100" alt="Rugby">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-basketball.jpg" class="d-block w-100" alt="Basketball">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
+              <img src="img/slider-basketball.jpg" class="d-block w-100" alt="Basketball">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-swim.jpg" class="d-block w-100" alt="Swimming">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
+              <img src="img/slider-swim.jpg" class="d-block w-100" alt="Swimming">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-tennis.jpg" class="d-block w-100" alt="Tennis">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
+              <img src="img/slider-tennis.jpg" class="d-block w-100" alt="Tennis">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-hurdling.jpg" class="d-block w-100" alt="Hurdling">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
+              <img src="img/slider-hurdling.jpg" class="d-block w-100" alt="Hurdling">
           </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      </div>
+      <a class="carousel-control-prev" href="#abbott-carousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      </a>
+      <a class="carousel-control-next" href="#abbott-carousel" role="button" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </a>
-      </div>
+      </a>
+  </div>
 
       <div class="container">
           <div class="row">
               <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/base-square-300x300.jpg" alt="baseball">
-                    <div class="card-body">
+                    <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/base-square-300x300.jpg" alt="baseball"></a>
+                    <div class="card-body yellowBack">
                       <h5 class="card-title">Baseball</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <!-- <a href="#" class="btn btn-dark">Players</a>                                               -->
@@ -227,8 +208,8 @@
               </div>
               <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/BB-Square-300x300.jpg" alt="">
-                    <div class="card-body">
+                  <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/BB-Square-300x300.jpg" alt=""></a>
+                    <div class="card-body yellowBack">
                       <h5 class="card-title">Basketball Men</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <!-- <a href="#" class="btn btn-dark">Players</a> -->
@@ -326,8 +307,8 @@
               </div>
               <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/BB-Square-300x300.jpg" alt="">
-                    <div class="card-body">
+                  <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/BB-Square-300x300.jpg" alt=""></a>
+                    <div class="card-body yellowBack">
                       <h5 class="card-title">Basketball Women</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <!-- <a href="#" class="btn btn-dark">Players</a> -->.
@@ -425,8 +406,8 @@
               </div>
               <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/flag-square-300x300.jpg" alt="">
-                    <div class="card-body">
+                  <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/flag-square-300x300.jpg" alt=""></a>
+                    <div class="card-body yellowBack">
                       <h5 class="card-title">Flag Football</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <!-- <a href="#" class="btn btn-dark">Players</a> -->
@@ -526,8 +507,8 @@
           <div class="row">
             <div class="col">
               <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/volleyball-1-300x300.webp" alt="">
-                  <div class="card-body">
+                <a href=""><img class="card-img-top" src="img/volleyball-1-300x300.webp" alt=""></a>
+                  <div class="card-body blueBack">
                     <h5 class="card-title">Volleyball Men</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <!-- <a href="#" class="btn btn-dark">Players</a> -->
@@ -625,8 +606,8 @@
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/volleyball-1-300x300.webp" alt="">
-                  <div class="card-body">
+                <a href=""><img class="card-img-top" src="img/volleyball-1-300x300.webp" alt=""></a>
+                  <div class="card-body blueBack">
                     <h5 class="card-title">Volleyball Women</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <!-- <a href="#" class="btn btn-dark">Players</a> -->
@@ -724,8 +705,8 @@
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/swimming.jpg" alt="">
-                  <div class="card-body">
+                <a href=""><img class="card-img-top" src="img/swimming.jpg" alt=""></a>
+                  <div class="card-body blueBack">
                     <h5 class="card-title">Swimming</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <!-- <a href="#" class="btn btn-dark">Players</a> -->
@@ -823,8 +804,8 @@
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/LAX-square-300x300.jpg" alt="">
-                  <div class="card-body">
+                <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/LAX-square-300x300.jpg" alt=""></a>
+                  <div class="card-body blueBack">
                     <h5 class="card-title">Lacrosse</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <!-- <a href="#" class="btn btn-dark">Players</a> -->
@@ -921,10 +902,10 @@
               </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row yellowBack">
             <div class="col">
               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="img/Step-3-Ringette-Pic-300x300.jpg" alt="Card image cap">
+                <a href=""><img class="card-img-top" src="img/Step-3-Ringette-Pic-300x300.jpg" alt="Card image cap"></a>
                   <div class="card-body">
                     <h5 class="card-title">Ringette</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -1023,7 +1004,7 @@
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/rugby-square-300x300.jpg" alt="Card image cap">
+                <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/rugby-square-300x300.jpg" alt="Card image cap"></a>
                   <div class="card-body">
                     <h5 class="card-title">Rugby Women</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -1122,7 +1103,7 @@
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/rugby-square-300x300.jpg" alt="Card image cap">
+                <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/rugby-square-300x300.jpg" alt="Card image cap"></a>
                   <div class="card-body">
                     <h5 class="card-title">Rugby Men</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -1221,7 +1202,7 @@
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="img/softball.jpg" alt="Card image cap">
+                <a href=""><img class="card-img-top" src="img/softball.jpg" alt="Card image cap"></a>
                   <div class="card-body">
                     <h5 class="card-title">Softball</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -1319,10 +1300,10 @@
               </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row blueBack">
             <div class="col">
               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/Soccer-squae-1-300x300.jpg" alt="Card image cap">
+                <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/Soccer-squae-1-300x300.jpg" alt="Card image cap"></a>
                   <div class="card-body">
                     <h5 class="card-title">Soccer Men</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -1421,7 +1402,7 @@
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/Soccer-squae-1-300x300.jpg" alt="Card image cap">
+                <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/Soccer-squae-1-300x300.jpg" alt="Card image cap"></a>
                   <div class="card-body">
                     <h5 class="card-title">Soccer Women D1</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -1520,7 +1501,7 @@
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/Soccer-squae-1-300x300.jpg" alt="Card image cap">
+                <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/Soccer-squae-1-300x300.jpg" alt="Card image cap"></a>
                   <div class="card-body">
                     <h5 class="card-title">Soccer Women D2</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -1619,7 +1600,7 @@
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/XC-Square-300x300.jpg" alt="Card image cap">
+                <a href=""><img class="card-img-top" src="http://sportsandrecreation.johnabbott.qc.ca/wp-content/uploads/2019/07/XC-Square-300x300.jpg" alt="Card image cap"></a>
                   <div class="card-body">
                     <h5 class="card-title">Track and Field</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

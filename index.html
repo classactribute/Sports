@@ -15,12 +15,17 @@
 
     <!-- Page CSS -->
     <link rel="stylesheet" href="css/index-style.css">
-
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+    <!-- Description and Title -->
+    <meta name="description"
+        content="Since its beginning, the John Abbott College has actively supported participation in sports endeavors as one of the important avenues in the growth of the individual.">
     <title>Homepage</title>
 </head>
 
@@ -47,10 +52,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">News</a>
-                        <a class="nav-link" href="#">Our Teams</a>
-                        <a class="nav-link" href="#">Championship and Achievements</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="news.html">News</a>
+                        <a class="nav-link" href="teams.html">Our Teams</a>
+                        <a class="nav-link" href="achievement-and-championship.html">Championship and Achievements</a>
                     </div>
                 </div>
             </div>
@@ -99,36 +104,81 @@
             <div id="latestTitle" class="col">Latest News</div>
         </div>
         <div class="row">
-            <div class="col-3">
+            <div class="col-xxl-3 col-xl-3 col-sm-6">
                 <div><a href="news.html"><img class="newsImg" src="img/medal.jpg" alt="Medal"></a></div>
-                <div class="container newsDiv"><a class="newsTitle" href="news.html">The title of first news comes here</a></div>
+                <div class="container newsDiv"><a class="newsTitle" href="news.html">The title of first news comes
+                        here</a></div>
             </div>
-
-
-            <div class="col-3">
+            <div class="col-xxl-3 col-xl-3 col-sm-6">
                 <div><a href="news.html"><img class="newsImg" src="img/ball.jpg" alt="Ball"></a></div>
-                <div class="container newsDiv"><a class="newsTitle" href="news.html">The title of second news comes here</a></div>
+                <div class="container newsDiv"><a class="newsTitle" href="news.html">The title of second news comes
+                        here</a></div>
             </div>
-
-            <div class="col-3">
+            <div class="col-xxl-3 col-xl-3 col-sm-6">
                 <div><a href="news.html"><img class="newsImg" src="img/running-man.jpg" alt="Running Man"></a></div>
-                <div class="container newsDiv"><a class="newsTitle" href="news.html">The title of third news comes here</a></div>
+                <div class="container newsDiv"><a class="newsTitle" href="news.html">The title of third news comes
+                        here</a></div>
             </div>
-
-            
-            <div class="col-3">
-                <div><img class="newsImg" src="img/running-man.jpg" alt="Running Man"></div>
-                <div class="newsTitle container"></div>
-            </div>
-            <div class="col-3">
-                <div><img class="newsImg" src="img/ball-basketball.jpg" alt="Basketball"></div>
-                <div class="newsTitle container">The title of fourth news comes here</div>
+            <div class="col-xxl-3 col-xl-3 col-sm-6">
+                <div><a href="news.html"><img class="newsImg" src="img/ball-basketball.jpg" alt="Basketball"></a></div>
+                <div class="container newsDiv"><a class="newsTitle" href="news.html">The title of fourth news comes
+                        here</a></div>
             </div>
         </div>
         <div class="row">
-            <div class="col" id="moreNews">more news...</div>
+            <div class="col" id="moreNews"><a id="moreNews" href="news.html">more news...</a></div>
         </div>
     </div>
+
+    <!-- Player of the Week -->
+    <div id="playerBack">
+        <div class="container" id="playerBody">
+            <div class="row"></div>
+            <div id="playerTitle">Player of the Week</div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-12">
+                    <div class="blackBac-girl">
+                        <div id="starGirl"><img class="star" src="img/star.png" alt="Star"></div>
+                        <div class="playerTxt" id="txtGirl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Repudiandae aut
+                            officia sed non optio cum vitae, sunt obcaecati fuga tempora ab cupiditate maiores, pariatur
+                            dolorem dolores quos laborum deserunt excepturi! Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Distinctio, laborum iure. Atque praesentium provident, porro repudiandae
+                            autem doloremque dolores impedit, reiciendis iusto beatae.
+                        </div>
+                        <div id="avatarGirl"><img class="avatar" src="img/girl.jpg" alt="Player-Woman"></div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-12">
+                    <div class="blackBac-boy">
+                        <div><img class="avatar" src="img/boy.jpg" alt="Player-Woman"></div>
+                        <div class="playerTxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aut
+                            officia sed non optio cum vitae, sunt obcaecati fuga tempora ab cupiditate maiores, pariatur
+                            dolorem dolores quos laborum deserunt excepturi! Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Distinctio, laborum iure. Atque praesentium provident, porro repudiandae
+                            autem doloremque dolores impedit, reiciendis iusto beatae.</div>
+                        <div><img class="star" src="img/star.png" alt="Star"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Teams -->
+    <!-- <div class="container" id="teamsBack">
+        <div id="timesTitle">Teams</div> -->
+    <div class="teamCarousel">
+        <div><img src="img/teams/Baseball.jpg" alt="Baseball"></div>
+        <div><img src="img/teams/Basketball-Men.jpg" alt="Baseball"></div>
+        <div><img src="img/teams/Basketball-women.jpg" alt="Baseball"></div>
+        <div><img src="img/teams/Flag-Football.jpg" alt="Baseball"></div>
+        <div><img src="img/teams/Lacrosse.jpg" alt="Baseball"></div>
+        <div><img src="img/teams/Ringette.jpg" alt="Baseball"></div>
+        <div><img src="img/teams/Rugby-Men.jpg" alt="Baseball"></div>
+        <div><img src="img/teams/Rugby-Women.jpg" alt="Baseball"></div>
+        <div><img src="img/teams/Softball.jpeg" alt="Baseball"></div>
+    </div>
+    <!-- </div> -->
 
     <!-- Footer -->
     <div id="footerBack">
@@ -166,6 +216,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.teamsCarousel').slick({
+                setting- name: setting - value
+        });
+    });
+    </script>
 </body>
 
 </html>
