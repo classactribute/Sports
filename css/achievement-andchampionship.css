@@ -25,7 +25,9 @@ font-family: 'ubuntu';
     font-size: 3vw;
 }
 
-
+.stats-card{
+font-size: 1.3rem;
+}
 .subtitle{
     font-family: Oxygen;
     font-weight: bold;
