@@ -4,6 +4,8 @@
 
 .card-text {
     text-align: left;
+    align-items: center;
+    justify-content: center;
 }
 .signup-box {
     text-align: center;
@@ -26,4 +28,16 @@
 
   .btn1 {
       background-color: #ffef00;
+  }
+
+  .box-pad {
+      padding: 2rem;
+  }
+
+  .img-pad {
+    padding: 2rem 1.5rem 1.5rem 0rem;
+}
+
+  .imgfloat {
+    float: none;
   }
