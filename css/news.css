@@ -1,3 +1,29 @@
+.card {
+    margin: 20px 0;
+}
+
 .card-text {
     text-align: left;
 }
+.signup-box {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex-container {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .btn1 {
+      background-color: #ffef00;
+  }
