@@ -21,6 +21,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--JS to HTML-->
+    <script src="teams.js"></script>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/8073f3783b.js" crossorigin="anonymous"></script>
+
     <title>Homepage</title>
 </head>
 
@@ -121,9 +132,98 @@
                     <div class="card-body">
                       <h5 class="card-title">Baseball</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">Players</a>
+                      <!-- <a href="#" class="btn btn-dark">Players</a>                                               -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#baseball">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="baseball" tabindex="-1" role="dialog" aria-labelledby="baseballTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="baseballTitle">Baseball Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>   
                     </div>
-                </div>
+                </div>               
               </div>
               <div class="col">
                 <div class="card" style="width: 18rem;">
@@ -131,7 +231,96 @@
                     <div class="card-body">
                       <h5 class="card-title">Basketball Men</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">Players</a>
+                      <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#basketballMen">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="basketballMen" tabindex="-1" role="dialog" aria-labelledby="basketballMenTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="basketballMenTitle">Men's Basketball Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
               </div>
@@ -141,7 +330,96 @@
                     <div class="card-body">
                       <h5 class="card-title">Basketball Women</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">Players</a>
+                      <!-- <a href="#" class="btn btn-dark">Players</a> -->.
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#basketballWomen">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="basketballWomen" tabindex="-1" role="dialog" aria-labelledby="basketballWomenTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="basketballWomenTitle">Women's Basketball Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
               </div>
@@ -151,7 +429,96 @@
                     <div class="card-body">
                       <h5 class="card-title">Flag Football</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">Players</a>
+                      <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#flag">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="flag" tabindex="-1" role="dialog" aria-labelledby="flagTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="flagTitle">Flag Football Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
               </div>
@@ -163,17 +530,195 @@
                   <div class="card-body">
                     <h5 class="card-title">Volleyball Men</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#volleyballMen">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="volleyballMen" tabindex="-1" role="dialog" aria-labelledby="volleyballMenTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="volleyballMenTitle">Men's Volleyball Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>                    
                   </div>
               </div>
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
-                <img class="card-img-top" width="300" height="300" src="img/volleyball-1-300x300.webp" alt="">
+                <img class="card-img-top" src="img/volleyball-1-300x300.webp" alt="">
                   <div class="card-body">
                     <h5 class="card-title">Volleyball Women</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#volleyballWomen">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="volleyballWomen" tabindex="-1" role="dialog" aria-labelledby="volleyballWomenTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="volleyballWomenTitle">Women's Volleyball Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>                    
                   </div>
               </div>
             </div>
@@ -183,7 +728,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Swimming</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#swimming">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="swimming" tabindex="-1" role="dialog" aria-labelledby="swimmingTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="swimmingTitle">Swim Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -193,7 +827,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Lacrosse</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#lacrosse">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="lacrosse" tabindex="-1" role="dialog" aria-labelledby="lacrosseTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="lacrosseTitle">Lacrosse Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -205,7 +928,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Ringette</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#ringette">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="ringette" tabindex="-1" role="dialog" aria-labelledby="ringetteTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="ringetteTitle">Ringette Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -215,7 +1027,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Rugby Women</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#rugbyWomen">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="rugbyWomen" tabindex="-1" role="dialog" aria-labelledby="rugbyWomenTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="rugbyWomenTitle">Women's Rugby Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -225,7 +1126,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Rugby Men</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#rugbyMen">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="rugbyMen" tabindex="-1" role="dialog" aria-labelledby="rugbyMenTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="rugbyMenTitle">Men's Rugby Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -235,7 +1225,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Softball</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#softball">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="softball" tabindex="-1" role="dialog" aria-labelledby="softballTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="softballTitle">Softball Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -247,7 +1326,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Soccer Men</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#soccerMen">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="soccerMen" tabindex="-1" role="dialog" aria-labelledby="soccerMenTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="soccerMenTitle">Men's Soccer Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -257,7 +1425,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Soccer Women D1</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#soccerWomenD1">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="soccerWomenD1" tabindex="-1" role="dialog" aria-labelledby="soccerWomenD1Title" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="soccerWomenD1Title">Women's Soccer Team D1</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -267,7 +1524,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Soccer Women D2</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#soccerWomenD2">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="soccerWomenD2" tabindex="-1" role="dialog" aria-labelledby="soccerWomenD2Title" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="soccerWomenD2Title">Women's Soccer Team D2</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -277,7 +1623,96 @@
                   <div class="card-body">
                     <h5 class="card-title">Track and Field</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Players</a>
+                    <!-- <a href="#" class="btn btn-dark">Players</a> -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#track">
+                        Roster
+                      </button>                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="track" tabindex="-1" role="dialog" aria-labelledby="trackTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="trackTitle">Track and Field Team</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <ul class="list-unstyled">
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                  <!-- <img class="mr-3" src="..." alt="Generic placeholder image"> -->
+                                  <i class="fas fa-user"></i>
+                                  <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <a href="" type="button" class="btn btn-primary">Team Page</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -320,6 +1755,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
-</body>
 
+</body>
 </html>
