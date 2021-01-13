@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Page CSS -->
-    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/index-style.css">
 
 
 
@@ -37,92 +37,72 @@
 
 <body>
 
-    <!-- Header -->
-    <div id="headerBack">
-        <div class="container">
-            <div class="row">
-                <div id="siteTitle" class="col-sm-9 col-8">John Abbott Islander</div>
-                <div class="col-sm-3 col-4"><img id="logo" src="img/john-abbott.png"></div>
-            </div>
+<!-- Header -->
+<div class="headerBack pt-5">
+    <div class="container">
+        <div class="row">
+            <div id="siteTitle" class="col-xxl-6 col-xl-7 col-lg-8 col-sm-9 col-7">John Abbott Islander</div>
+            <div class="offset-xxl-3 offset-xl-2 col-sm-3 col-4"><img id="logo" src="img/john-abbott.png"></div>
         </div>
     </div>
+</div>
 
-    <!-- Navbar -->
-    <div class="container">
-        <nav class="abbott-nav navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link" href="news.html">News</a>
-                        <a class="nav-link" href="teams.html">Our Teams</a>
-                        <a class="nav-link" href="achievement-and-championship.html">Championship and Achievements</a>
-                    </div>
+<!-- Navbar -->
+<div class="container">
+    <nav class="abbott-nav navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="#">Our Teams</a>
+                    <a class="nav-link" href="#">Championship and Achievements</a>
                 </div>
             </div>
-        </nav>
-    </div>
-
-    <!-- Slider -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner" data-bs-interval="3000">
-          <div class="carousel-item active">
-            <img src="img/slider-rugby.jpg" class="d-block w-100" alt="Rugby">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-basketball.jpg" class="d-block w-100" alt="Basketball">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-swim.jpg" class="d-block w-100" alt="Swimming">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-tennis.jpg" class="d-block w-100" alt="Tennis">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slider-hurdling.jpg" class="d-block w-100" alt="Hurdling">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-            </div>
-          </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
-      </div>
+    </nav>
+</div>
+
+<!-- Slider -->
+<div id="abbott-carousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#abbott-carousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#abbott-carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#abbott-carousel" data-bs-slide-to="2"></li>
+        <li data-bs-target="#abbott-carousel" data-bs-slide-to="3"></li>
+        <li data-bs-target="#abbott-carousel" data-bs-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner" data-bs-interval="3000">
+        <div class="carousel-item active">
+            <img src="img/slider-rugby.jpg" class="d-block w-100" alt="Rugby">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/slider-basketball.jpg" class="d-block w-100" alt="Basketball">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/slider-swim.jpg" class="d-block w-100" alt="Swimming">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/slider-tennis.jpg" class="d-block w-100" alt="Tennis">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/slider-hurdling.jpg" class="d-block w-100" alt="Hurdling">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#abbott-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#abbott-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
 
 
     <!-- News body -->  
