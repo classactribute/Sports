@@ -160,24 +160,39 @@
         <div class="col-12">
           <div class="subtitle"><i class="fas fa-trophy"></i>Championship</div>
           <!-- Trigger the Modal -->
-          <img
+
+          <a href="#" data-toggle="modal" data-target="#myModal1"><img
             id="myImg"
             src="img/championshipbanner.jpeg"
             alt="Snow"
             style="width: 100%"
-          />
+          /></a>
+          
 
           <!-- The Modal -->
-          <div id="myModal" class="modal">
-            <!-- The Close Button -->
-            <span class="close">&times;</span>
+          <div class="modal fade" id="myModal1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4>Incoming Championship</h4>
+                </div>
+                    <div class="modal-body">
+                        <img class='' src="img/championshipcontent.jpeg" alt="Championship Content" style="width: 100%;">
+                  </div>
+                    <div class="modal-footer">
+                        <input class="btn btn-primary" data-dismiss="modal" value="Close">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img01" />
 
-            <!-- Modal Caption (Image Text) -->
-            <div id="caption"></div>
-          </div>
+          <!-- The Modal end -->
+      
+          
+
+
+
         </div>
       </div>
     </div>
