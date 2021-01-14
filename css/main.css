@@ -24,6 +24,10 @@
   margin-left: 70px;
 }
 
+#secondNav {
+  display: none;
+}
+
 .nav-link {
   color: white !important;
   font-family: Oxygen !important;
@@ -46,7 +50,7 @@
 #footerBack {
   background-color: #ffef00;
   height: 110px;
-  padding: 15px 100px 0 0;
+  padding-top: 15px;
 }
 
 .row {
@@ -74,38 +78,59 @@
   padding-top: 10px;
 }
 
-@media only screen and (max-width: 767px) {
-  #siteTitle {
-    font-size: 2.2rem;
-    padding-top: 10px;
-  }
+#smallHead {
+  display: none;
 }
 
-/* @media only screen and (max-width: 555px) {
-  #siteTitle {
-    font-size: 1.8rem;
-    padding-top: 10px;
-  }
-} */
+.second-abbott-nav {
+  background-color: white;
+  width: 150px;
+  opacity: 80%;
+  border-radius: 10px;
+  margin-top: -130px;
+}
 
-@media only screen and (max-width: 575px) {
-  #siteTitle {
-    font-size: 1.6rem;
-    padding-top: 18px;
-  }
-  #logo {
-    width: 10px;
+.third-abbott-nav {
+  background-color: white;
+  width: 150px;
+  opacity: 80%;
+  border-radius: 10px;
+}
+
+#secondSiteTitle {
+  font-size: 1.2rem;
+}
+
+#logoInside {
+  width: 80px;
+  text-align: center;
+}
+
+#secondFooter {
+  display: none;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1200px) {
+  .socialIcon {
+    width: 30px;
   }
 }
 
 @media only screen and (max-width: 991px) {
-  .abbott-nav {
-    background-color: white;
-    width: 150px;
-    opacity: 50%;
-    border-radius: 10px;
+  #firstNav {
+    display: none;
   }
-
+  #secondNav {
+    display: flex;
+  }
+  #siteTitle {
+    font-size: 2rem;
+    padding: 15px 0 0 220px;
+  }
+  .socialIcon {
+    padding: 3px;
+  }
   .nav-link {
     color: black !important;
     font-family: Oxygen !important;
@@ -114,35 +139,48 @@
   }
 }
 
-@media only screen and (max-width: 680px) {
-  #logo {
-    width: 100px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .socialIcon {
-    width: 30px;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .socialIcon {
-    padding: 3px;
-  }
-}
-
 @media only screen and (max-width: 767px) {
+  #siteTitle {
+    font-size: 1.5rem;
+    padding-top: 5px;
+  }
   #footerBack {
     height: fit-content;
   }
+  #secondNav {
+    margin-top: 15px;
+  }
+  #logo {
+    width: 120px;
+  }
 }
 
-@media only screen and (max-width: 603px) {
-  .footLink {
-    font-size: 0.8rem;
+@media only screen and (max-width: 679px) {
+  #logo {
+    width: 100px;
   }
-  #footLogo {
-    width: 80px;
+  #secondNav {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #secondNav,
+  #logo,
+  #abbott-carousel,
+  #siteTitle {
+    display: none;
+  }
+  #smallHead {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 316px) {
+  #secondSiteTitle {
+    display: none;
   }
 }
