@@ -1,20 +1,32 @@
-// Get the modal
-var modal = document.getElementById("myModal");
+/*	gallery */
+$(document).ready(function(){
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+  $(".filter-button").click(function(){
+      var value = $(this).attr('data-filter');
+      
+      if(value == "all")
+      {
+          $('.filter').show('1000');
+      }
+      else
+      {
+          $(".filter").not('.'+value).hide('3000');
+          $('.filter').filter('.'+value).show('3000');
+          
+      }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+          if ($(".filter-button").removeClass("active")) {
+    $(this).removeClass("active");
+      }
+        $(this).addClass("active");
+      });
+});
+/*	end gallery */
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
+$(document).ready(function(){
+  $(".fancybox").fancybox({
+      openEffect: "none",
+      closeEffect: "none"
+  });
+});
+ 
