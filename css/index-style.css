@@ -101,6 +101,7 @@ a#moreNews:hover {
   margin-top: -200px;
 }
 
+/* media Query */
 @media only screen and (max-width: 1399px) {
   .star {
     margin-top: -280px;
@@ -132,20 +133,26 @@ a#moreNews:hover {
     margin: 0;
     margin-bottom: 15px;
   }
-
   #avatarGirl {
     grid-area: 1 / 1 !important;
   }
-
   #txtGirl {
     grid-area: 2 / 1 !important;
   }
-
   #starGirl {
     grid-area: 3 / 1 !important;
   }
-
   .playerTxt {
     margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #playerBody {
+    padding: 0;
+  }
+  .blackBac-boy, .blackBac-girl {
+    border-radius: 0;
+    max-width:max-content !important;
   }
 }
