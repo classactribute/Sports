@@ -17,3 +17,27 @@
 .yellowBack {
     background-color: #FFEF00;
 }
+
+h1 {
+    font-family: ubuntu;
+}
+
+h5 {
+    font-family: oxygen !important;
+}
+
+button {
+    font-family: oxygen !important;
+}
+
+th {
+    font-family: oxygen;
+}
+
+p {
+    font-family: libre franklin;
+}
+
+td {
+    font-family: libre franklin;
+}
