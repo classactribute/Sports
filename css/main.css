@@ -24,6 +24,10 @@
   margin-left: 70px;
 }
 
+.navbar {
+  box-shadow: none !important;
+}
+
 #secondNav {
   display: none;
 }
